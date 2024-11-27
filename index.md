@@ -1,17 +1,10 @@
 ---
-layout: home
+layout: about
 navname: Home
 
-tabTitle: 'projectTitin'
-ogTitle: 'projectTitin Material Repository'
-ogDesc: 'A website aiming to provide simple notes for JEE prep and CBSE 12th Board prep'
-ogImg: https://upload.wikimedia.org/wikipedia/commons/2/27/1BPV.png
+tabTitle: 'Magizh's English Project'
+ogTitle: 'Magizh's English Project'
+ogDesc: 'Mobile Phones: How they affect your personality and focus'
+ogImg: https://www.trustedreviews.com/wp-content/uploads/sites/54/2024/10/Best-smartphone-2024-2.jpg
 ogURL: 
-
-# Cells at the bottom of the page
-cellLinks:
-  - cname: Useful Resources
-    curl: useful
-  - cname: YouTube
-    curl: socials
 ---

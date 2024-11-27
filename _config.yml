@@ -1,20 +1,13 @@
-repository: pseudoforceyt/projectTitin
-url: "https://pseudoforceyt.github.io"
-baseurl: "/projectTitin"
+repository: ilamparithi-in/magizh-template
+url: "https://pseudoforceyt.10082006.xyz"
+baseurl: "/"
 siteIcon: /media/android-chrome-192x192.png
 siteYear: 2024
 siteFooterlink: /about
 showinSearchEngines: true
 # googleAnalyticsID: 
 
-siteNav:
-   - name: About
-     url: about
-     newtab: true
-   - name: 'Useful Resources'
-     url: useful
-   - name: 'YouTube'
-     url: socials
+siteNav: []
 
 theme: minima
 # plugins:
