@@ -41,8 +41,7 @@ layout: compress
     <nav class="flex items-center justify-between flex-wrap bg-transparent p-4 bg-opacity-30">
         <a href="{{ site.baseurl }}/">
             <div class="flex items-center flex-shrink-0 text-white mr-6 select-none">
-                <!-- img src="{{ site.baseurl }}{{ site.siteIcon }}" class="mr-4 rounded shadow" width="30px" alt="projectTitin Material Repository" -->
-                <span class="font-semibold text-xl tracking-tight hidden md:block" id="serverLogoName">projectTitin</span>
+                <span class="font-semibold text-xl tracking-tight hidden md:block" id="serverLogoName">Group 3 English Project</span>
             </div>
         </a>
         <div class="block flex-grow flex items-center w-auto">
@@ -66,27 +65,6 @@ layout: compress
     </nav>
 
     {{ content }}
-
-    <div class="bg-black bg-opacity-50 rounded-t-xl layoutfooter w-full p-3 text-center transition duration-200">
-        <a href="https://github.com/coffeebank/" rel="noopener" title="coffeebank on GitHub" class="hover:text-gray-400">&middot; Thanks to coffeebank for help on this site</a> &middot; 
-        <a href="https://youtube.com/@pseudoforceyt" rel="noopener" title="Legal" class="hover:text-gray-400">&copy; {{ site.siteYear }}<script>new Date().getFullYear()>{{ site.siteYear }}&&document.write("&#8208;"+new Date().getFullYear());</script> youtube.com/@pseudoforceyt &middot;</a>
-    </div>
-
-    <!-- Google Analytics -->
-    {% if googleAnalyticsID %}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ googleAnalyticsID }}"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', '{{ googleAnalyticsID }}');
-    </script>
-    {% endif %}
-    
-    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/micromodal.custom.js"></script>
 
 </body>
 </html>
